@@ -9,16 +9,14 @@ After you created the issue:
 - Go to `_data/entry_issue.yml` file in the [diybiosphere/sphere](https://github.com/DIYbiosphere/sphere) repository
 - Add the following code:
 ```yml
-- doc_name: diybiosphere # file_name, NOT title. Same as URL.
+- page_title: diybiosphere # Title of page (exactly!)
   comments_issue: 2 # issue number for comments in diybiosphere/comments
   edit_issue: 1 # issue number for discussing editing in diybiosphere/sphere
 ```
 - Commit and wait for the build to go through Travis. It might take a few minutes
 
-### doc_name
-the `doc_name:` is NOT the title, it is the _file name_ in the repository. 
-
-If you are not sure of the file name, just look at  the URL. The last word after the last slash should be the file name. `i.e. http://sphere.diybio.org/labs/AvocadoLab`, file name is `avocadolab`
+### page_title
+the `page_title:` The title of the entry EXACTLY as it appears
 
 ### edit_issue
 Issues in _this_ repository are meant to show in the webpages and _discuss the content_ in the webpage. 
